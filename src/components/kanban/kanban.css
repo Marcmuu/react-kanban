@@ -24,3 +24,29 @@
     margin-top: 10px;
 }
      
+@media screen and (max-width: 768px) {
+    .flexRow{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0px;
+        text-align: center;
+    }
+    .kanban{
+        display: flex;
+    }
+    .kanban__section {
+        width: 130px;
+        background-color: #383838;
+        padding: 5px;
+        border-radius: 10px;
+        min-height: 430px;
+    }
+    .kanban__section__title {
+        font-size: 0.8rem;
+        font-weight: 700;
+        margin: 10px 0;
+    }
+    .kanban__section__content {
+        margin-top: 4px;
+    }
+}

@@ -23,3 +23,9 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
 }
+
+@media screen and (max-width: 768px) {
+  .contenedor{
+    padding: 10px!important;
+  }
+}

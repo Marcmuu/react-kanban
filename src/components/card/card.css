@@ -5,3 +5,14 @@
     margin: 20px;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .card{
+        padding: 10px;
+        background-color: #212121;
+        border-radius: 10px;
+        margin: 5px;
+        text-align: center;
+        font-size: 0.7em;
+    }
+}
